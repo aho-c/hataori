@@ -1,0 +1,9 @@
+{
+	"name": "net.nokoko.hataori",
+	"description": "hataori",
+	"path": "C:\\nokoko\\hataori\\host\\chrome\\hataori.bat",
+	"type": "stdio",
+	"allowed_origins": [
+		"chrome-extension://djakpmblkbnpldibcbpjieigciogakca/"
+	]
+}
