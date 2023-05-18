@@ -13,7 +13,7 @@ Option Explicit
 
 '// hataori install directory
 Public Function GetInstallDirectoryPath() As String
-    GetInstallDirectoryPath = "C:\nokoko\hataori"
+    GetInstallDirectoryPath = "C:\*****\hataori-main\hataori"
 End Function
 
 '// hataori setting function
