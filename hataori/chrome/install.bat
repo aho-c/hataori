@@ -3,9 +3,9 @@
 for /f "usebackq delims=" %%A in (`CD`) do set setup_dir=%%A
 set registry_key_user=HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\net.nokoko.hataori
 set registry_key_admin=HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\NativeMessagingHosts\net.nokoko.hataori
-set ext_host_path=%setup_dir%\hataori\host\manifest.json
-set host_file=%setup_dir:\=\\%\\hataori\\host\\hataori.bat
-set ext_path=%setup_dir%\hataori\ext
+set ext_host_path=%setup_dir%\host\manifest.json
+set host_file=%setup_dir:\=\\%\\host\\hataori.bat
+set ext_path=%setup_dir%\ext
 
 echo -------------------------------------------------
 echo Install hataori 0.5.0
