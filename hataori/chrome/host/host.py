@@ -186,7 +186,7 @@ def assign(message):
 if __name__ == '__main__':
     request_file = 'req'
     response_file = 'res'
-    directory_path = os.path.dirname(os.path.abspath(sys.argv[0])) + '/../file'
+    directory_path = os.path.dirname(os.path.abspath(sys.argv[0])) + '/../../file'
 
     browser_process_watch = thread()
     browser_process_watch.set_function(__browser_process_watch)
