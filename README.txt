@@ -1,5 +1,6 @@
 ----------------------------------------------
 hataori
+  https://nokoko.net/hataorivba/
 
 MIT License
 Copyright 2023 Fukasawa Takashi
