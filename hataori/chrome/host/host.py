@@ -188,8 +188,6 @@ if __name__ == '__main__':
     response_file = 'res'
     directory_path = os.path.dirname(os.path.abspath(sys.argv[0])) + '/../../file'
 
-    if not os.path.isdir(directory_path): os.makedirs(directory_path)
-
     browser_process_watch = thread()
     browser_process_watch.set_function(__browser_process_watch)
     browser_process_watch.start()
